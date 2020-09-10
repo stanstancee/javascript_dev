@@ -1,0 +1,117 @@
+*{
+  box-sizing: border-box;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+[class*="col-"] {
+  float: left;
+  padding: 10px;
+  border:10px solid ;
+}
+.col-1  {
+width:100%
+}
+.col-2  {
+  width:50%;
+  }
+ 
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container{
+background-color: black;
+border-radius:70%;
+
+
+}
+.center{
+color:white;
+position: absolute;
+left: 47%;
+top: 50%;
+
+
+
+}
+.btn {
+ height:300px;
+
+
+}
+
+.game-over {
+  background-color: rgb(124, 63, 63);
+  opacity: 0.8;
+}
+
+.red {
+  background-color: rgb(255, 23, 23);
+  border-top-left-radius: 100%;
+  border-bottom-right-radius: 30%;
+ 
+  ;
+}
+
+.green {
+  background-color: rgb(16, 212, 16);
+  border-top-right-radius: 100%;
+  border-bottom-left-radius: 30%;
+
+}
+
+.blue {
+  background-color: blue;
+border-bottom-left-radius: 100%;
+  border-top-right-radius: 30%;
+  transition: 0.2s;
+
+
+}
+.blue:hover{
+  background-color: blue;
+  border:0;
+  box-shadow: 0 0 10px blue, 0 0 10px blue, 0 0 80px blue;
+  overflow: hidden;
+  transition-delay: 0.5;
+}
+.red:hover{
+  background-color: red;
+  border:0;
+  box-shadow: 0 0 10px red, 0 0 10px red, 0 0 80px red;
+  overflow: hidden;
+  transition-delay: 0.5;
+}
+.yellow:hover{
+  background-color: yellow;
+  border:0;
+  box-shadow: 0 0 10px yellow, 0 0 10px yellow, 0 0 80px yellow;
+  overflow: hidden;
+  transition-delay: 0.5;
+}
+.green-pressed{
+  background-color: .green;
+  border:0;
+  box-shadow: 0 0 10px green, 0 0 10px green, 0 0 80px green;
+  overflow: hidden;
+  transition-delay: 0.5;
+}
+
+.yellow {
+  background-color: yellow;
+  border-bottom-right-radius: 100%;
+  border-top-left-radius: 30%;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+
